@@ -11,18 +11,25 @@
     <h1>Contact Me</h1>
     <p>Have a question or want to collaborate? Fill out the form below!</p>
 
-    <form action="https://formspree.io/f/mnjbonkn" method="POST">
-      <label for="name">Name</label>
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/mnjbonkn"
+  method="POST"
+>
+        <label for="name">Name</label>
+<form
       <input type="text" id="name" name="name" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="_replyto" required>
-
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
-
-      <button type="submit">Send</button>
-    </form>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
   </div>
 
   <script src="script.js"></script>
